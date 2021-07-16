@@ -64,14 +64,7 @@ body{
 .weAreGog .col-9{
     border-right:1px solid gray ;
 }
-/* 
-.carousel-inner{
-    z-index:0;
-}
 
-.ol{
-    z-index: 1;
-} */
 
 .carousel-inner{
     position: relative;
@@ -98,7 +91,7 @@ body{
     background-color: #D8D8D8;
 }
 
-.innerSalesHeader{
+.innerSalesHeader, .discover{
     border-bottom: 1px solid black;
 }
 
@@ -107,7 +100,7 @@ body{
     margin-right: 5px;
 }
 
-.nowOnSale span:hover:not(.noUnderline){
+.nowOnSale span:hover:not(.noUnderline), .discover span:hover:not(.noUnderline){
     border-bottom: 3px solid purple;
 }
 
@@ -121,5 +114,28 @@ body{
 .longImage .col-3 img{
     border: 1px solid red;
 }
+
+.onSale .onSaleSection{
+    position: relative;
+    display: flex;
+}
+
+.onSale button{
+    transform: scale(0.75);
+    position: absolute;
+    bottom: 0px; 
+    margin: auto; 
+}
+
+.discover img{
+    width: 16px;
+    height: 16px;
+}
+.discover span{
+    margin: 0px 3px;
+}
+
+
+
 
 
