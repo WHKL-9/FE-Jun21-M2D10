@@ -1,0 +1,125 @@
+body{
+    background-color:#D8D8D8;
+}
+
+.navbar img{
+    width: 30px;
+    height: 30px;
+    background: white;
+    margin-right: 8px;
+    border-radius: 2px;
+}
+
+.carousel img{
+    max-height: 431px;
+    
+}
+
+.carousel{
+    position: relative;
+}
+
+.carouselInHero button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    position:absolute;
+    bottom:0;
+    right: 3rem;
+}
+
+.card-body{
+    position: relative;
+}
+
+.card-body div.systemAndPrice img{
+    position:absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.card-body div.systemAndPrice span{
+    position:absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.weAreGog .col-10 span,p{
+    font-weight: bold;
+    color: gray;
+    
+}
+.weAreGog .col-3 span, .weAreGog .col-10 span{
+    color: purple;
+    font-size: small;
+}
+
+.weAreGog img{
+    max-width: 20px;
+    max-height: 20px; 
+    margin: 4px;
+}
+
+.weAreGog .col-9{
+    border-right:1px solid gray ;
+}
+/* 
+.carousel-inner{
+    z-index:0;
+}
+
+.ol{
+    z-index: 1;
+} */
+
+.carousel-inner{
+    position: relative;
+}
+
+.carousel-control-next-icon{
+    background-color: #D8D8D8;
+    position: absolute;
+    right: -10px;
+}
+.carousel-control-prev-icon{
+    background-color: #D8D8D8;
+    position: absolute;
+    left: -10px;
+}
+
+.carousel{
+    position: relative;
+}
+
+.carousel ol{
+    position: absolute;
+    bottom: -2.5rem;
+    background-color: #D8D8D8;
+}
+
+.innerSalesHeader{
+    border-bottom: 1px solid black;
+}
+
+.nowOnSale span{
+    font-size: .95rem;
+    margin-right: 5px;
+}
+
+.nowOnSale span:hover:not(.noUnderline){
+    border-bottom: 3px solid purple;
+}
+
+.longImage{
+    display:flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.longImage .col-3 img{
+    border: 1px solid red;
+}
+
+
